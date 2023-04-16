@@ -1,6 +1,7 @@
 package router
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -14,4 +15,8 @@ func create(router *gin.Engine) {
 		})
 	})
 
+}
+
+func test() {
+	fmt.Println("124")
 }
