@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func create(router *gin.Engine) {
+func Create(router *gin.Engine) {
 
 	router.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
@@ -17,6 +17,6 @@ func create(router *gin.Engine) {
 
 }
 
-func test() {
+func Test() {
 	fmt.Println("124")
 }
