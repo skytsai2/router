@@ -1,10 +1,10 @@
 package router
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/skytsai2/user"
 )
 
 func Create(router *gin.Engine) {
@@ -15,8 +15,9 @@ func Create(router *gin.Engine) {
 		})
 	})
 
-}
+	router.POST("/user", user.PostUser)
+	// router.PUT("/somePut", user.GetUser)
+	// router.DELETE("/someDelete", user.GetUser)
+	router.GET("/user/:userid", user.GetUser)
 
-func Test() {
-	fmt.Println("124")
 }
