@@ -48,6 +48,8 @@ github.com/skytsai2/controller v0.0.0-20230424030401-c8c7d3f4b7d3 h1:z3nLErbWyOu
 github.com/skytsai2/controller v0.0.0-20230424030401-c8c7d3f4b7d3/go.mod h1:NvLH1nd8Pp9xCINvq129Sp84Wz3DiTBJZ0C2G5pZhUs=
 github.com/skytsai2/database v0.0.0-20230420085350-46f1ac735e07 h1:JlO6lYZqh4zUt3JaQF+/S6vDKhR1hEvdwkMwEApl8+I=
 github.com/skytsai2/database v0.0.0-20230420085350-46f1ac735e07/go.mod h1:1epTi58YVLLOZKf7Shc/XP7NCyxr2bQi5JfPio92b4w=
+github.com/skytsai2/database v0.0.0-20230424032142-8bb30fc3a3f7 h1:/shcdRJ0VTYsBnaRMjhjxDY91px6iNK60Ss1l46Cebo=
+github.com/skytsai2/database v0.0.0-20230424032142-8bb30fc3a3f7/go.mod h1:1epTi58YVLLOZKf7Shc/XP7NCyxr2bQi5JfPio92b4w=
 github.com/skytsai2/middleware v0.0.0-20230420081015-aeac7615a965 h1:8GoMNtAtT+cmTygxjB/bXAJQ7yO+PI6HmVpaQLfiqqw=
 github.com/skytsai2/middleware v0.0.0-20230420081015-aeac7615a965/go.mod h1:DpjVAZ7+fM+t65BAFowVY3jdWon9Qx5cSb2Lm+RMEXg=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
