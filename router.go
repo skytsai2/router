@@ -8,8 +8,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/skytsai2/controller"
 	"github.com/skytsai2/middleware"
-	"github.com/skytsai2/user"
 )
 
 type Data struct {
@@ -61,11 +61,11 @@ func Create(router *gin.Engine) {
 			})
 		})
 
-		api.POST("/user", user.PostUser)
-		api.PUT("/user", user.PutUser)
-		api.DELETE("/user/:userid", user.DelUser)
-		api.GET("/user/:userid", user.GetUser)
-		api.GET("/user/list", user.GetUserList)
+		api.POST("/user", controller.PostUser)
+		api.PUT("/user", controller.PutUser)
+		api.DELETE("/user/:userid", controller.DelUser)
+		api.GET("/user/:userid", controller.GetUser)
+		api.GET("/user/list", controller.GetUserList)
 	}
 }
 
